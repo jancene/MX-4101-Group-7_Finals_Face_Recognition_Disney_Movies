@@ -1,13 +1,19 @@
-# <h1 align="center">𝕲𝖗𝖔𝖚𝖕-7_𝕱𝖎𝖓𝖆𝖑𝖘_𝕱𝖆𝖈𝖊_𝕽𝖊𝖈𝖔𝖌𝖓𝖎𝖙𝖎𝖔𝖓</h1>
+# <h1 align="center">![image](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143627650/d5613900-98b4-4f51-9b59-d4cd29b33bab)</h1>
 
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
-### ℑ𝔪𝔭𝔬𝔯𝔱𝔦𝔫𝔤 ℑ𝔪𝔞𝔤𝔢𝔰 𝔣𝔯𝔬𝔪 𝔊𝔦𝔱𝔥𝔲𝔟 𝔞𝔫𝔡 ℑ𝔫𝔰𝔱𝔞𝔩𝔩𝔦𝔫𝔤 𝔉𝔞𝔠𝔢_ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫
+Disney movies, a treasure trove of wonder and delight, weave magical narratives that transcend generations. From the groundbreaking classics like "Snow White and the Seven Dwarfs" to the modern masterpieces such as "Frozen" and "Moana," Disney's cinematic repertoire is a kaleidoscope of imagination and emotion. These films transport audiences to enchanting worlds filled with vibrant characters, unforgettable melodies, and timeless messages. With their artistry in storytelling and animation, Disney movies serve as a universal language, evoking laughter, tears, and a sense of wonder. They embody the essence of storytelling at its finest, leaving an indelible mark on the hearts of viewers worldwide, fostering dreams and reminding us of the enduring power of imagination and the importance of believing in the extraordinary.
+
+For this tale, the group task is to develope a face recognition program that accurately identifies and acknowledges Disney Live-Action Princess characters. This activity must be aligned with the pivotal action of making an interactive Dashboard for the brand of Disney Movies.
+
+The group used the following codes provided below:
+
+### 🎬 ℑ𝔪𝔭𝔬𝔯𝔱𝔦𝔫𝔤 ℑ𝔪𝔞𝔤𝔢𝔰 𝔣𝔯𝔬𝔪 𝔊𝔦𝔱𝔥𝔲𝔟 𝔞𝔫𝔡 ℑ𝔫𝔰𝔱𝔞𝔩𝔩𝔦𝔫𝔤 𝔉𝔞𝔠𝔢_ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫
     !git clone https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
     !pip install face_recognition
     %cd MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
 
-### 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
+### 👸🏻 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
     import face_recognition
     import numpy as np
     from google.colab.patches import cv2_imshow
@@ -44,6 +50,9 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
                     "Jasmine",
                     "Mulan",
     ]
+
+
+![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
 
 ### 𝔘𝔰𝔦𝔫𝔤 𝔉𝔞𝔠𝔦𝔞𝔩 ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫 𝔬𝔫 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
     file_name = "Ar.jpg"
