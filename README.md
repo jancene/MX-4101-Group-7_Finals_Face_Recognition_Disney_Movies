@@ -1,6 +1,6 @@
 # <h1 align="center">𝕲𝖗𝖔𝖚𝖕-7_𝕱𝖎𝖓𝖆𝖑𝖘_𝕱𝖆𝖈𝖊_𝕽𝖊𝖈𝖔𝖌𝖓𝖎𝖙𝖎𝖔𝖓</h1>
 
-_**𝓐𝓾𝓽𝓱𝓸𝓻/𝓼**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
+_**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
 ### ℑ𝔪𝔭𝔬𝔯𝔱𝔦𝔫𝔤 ℑ𝔪𝔞𝔤𝔢𝔰 𝔣𝔯𝔬𝔪 𝔊𝔦𝔱𝔥𝔲𝔟 𝔞𝔫𝔡 ℑ𝔫𝔰𝔱𝔞𝔩𝔩𝔦𝔫𝔤 𝔉𝔞𝔠𝔢_ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫
     !git clone https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
