@@ -66,7 +66,10 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
         cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
 
     cv2_imshow(unknown_image_to_draw)
-![Ar with name](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e66545dc-f757-4ba9-b917-19bf8d3d7151)
+
+<p align="center">
+  <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e66545dc-f757-4ba9-b917-19bf8d3d7151" alt="Ar with name">
+</p>
 
     file_name = "Be.jpg"
     unknown_image = face_recognition.load_image_file(file_name)
@@ -88,7 +91,9 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
         cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
 
     cv2_imshow(unknown_image_to_draw)
-![Be with name](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/7ae047c6-cb78-40b6-aef0-6afa0d72da2f)
+<p align="center">
+  <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/7ae047c6-cb78-40b6-aef0-6afa0d72da2f" alt="Be with name">
+</p>
 
     file_name = "Ci.jpg"
     unknown_image = face_recognition.load_image_file(file_name)
@@ -110,7 +115,10 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
         cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
 
     cv2_imshow(unknown_image_to_draw)
-![Ci with name](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e415ae99-13df-4441-87a3-2509142cca66)
+    
+<p align="center">
+  <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e415ae99-13df-4441-87a3-2509142cca66" alt="Ci with name">
+</p>
 
     file_name = "Ja.jpeg"
     unknown_image = face_recognition.load_image_file(file_name)
@@ -132,7 +140,10 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
         cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
 
     cv2_imshow(unknown_image_to_draw)
-![Ja with name](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/57c48bd9-cd76-448e-9243-38e1f179da4d)
+    
+<p align="center">
+  <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/57c48bd9-cd76-448e-9243-38e1f179da4d" alt="Ja with name">
+</p>
 
     file_name = "Mu.jpg"
     unknown_image = face_recognition.load_image_file(file_name)
@@ -154,7 +165,11 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
         cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
 
     cv2_imshow(unknown_image_to_draw)
-![Mu with name](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/ab5e85e7-6743-47d9-874d-e3730093b343)
+    
+<p align="center">
+  <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/ab5e85e7-6743-47d9-874d-e3730093b343" alt="Mu with name">
+</p>
+
 
 ### Other Live-Action Disney Actors and Actresses
     file_name = "An.jpg"
