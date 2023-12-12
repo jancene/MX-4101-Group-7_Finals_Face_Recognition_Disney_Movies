@@ -92,34 +92,22 @@ The group used the following codes provided below: </p>
 
 <p align="justify"> Ariel is a beloved fictional character and the protagonist of Disney's animated film "The Little Mermaid," released in 1989. She is a spirited and curious mermaid princess who dreams of exploring the world beyond the ocean and living among humans. Ariel's fascination with the human world leads her to make a deal with the sea witch Ursula to exchange her voice for legs, hoping to experience life on land and win the heart of Prince Eric. With her distinctive red hair and an adventurous spirit, Ariel captivated audiences with her determination, courage, and love for adventure. She remains one of Disney's most iconic and cherished princesses, known for her memorable songs and endearing personality.
 
-
-The outcome derived from employing the "Ar.jpg" image with the code for facial recognition is: 
+💡 The outcome derived from employing the "Ar.jpg" image with the code for facial recognition is: 
 </p>
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e66545dc-f757-4ba9-b917-19bf8d3d7151" alt="Ar with name">
 </p>
 
-    file_name = "Be.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### 🥀 𝔅𝔢𝔩𝔩𝔢 
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
+<p align="justify"> Belle is another iconic Disney princess, known for her intelligence, kindness, and love of books. She is the central character in Disney's animated film "Beauty and the Beast," released in 1991. Belle is depicted as a smart, independent, and free-spirited young woman living in a small French village. Her love for reading and yearning for adventure set her apart from the conventional expectations of her provincial life.
 
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+Belle becomes entangled in a unique and heartwarming tale when she sacrifices herself to save her father, Maurice, from a terrifying Beast's castle. There, she discovers that the Beast is, in reality, a cursed prince trapped in a monstrous form due to his selfishness. Over time, Belle learns to see beyond the Beast's exterior and discovers the kindness and goodness within him.
 
-        name = "Unknown"
+💡 The outcome derived from employing the "Be.jpg" image with the code for facial recognition is: 
+</p>
 
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/7ae047c6-cb78-40b6-aef0-6afa0d72da2f" alt="Be with name">
 </p>
