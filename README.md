@@ -84,9 +84,9 @@ The group used the following codes provided below:
 ![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
 
 
-<h1 align="center"> 🧜🏻‍♀️ 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 | 𝔄𝔯𝔦𝔢𝔩 🧜🏻‍♀️ </h1>
+# <h1 align="center"> 🧜🏻‍♀️ 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 | 𝔄𝔯𝔦𝔢𝔩 🧜🏻‍♀️ </h1>
 
-# 🧜🏻‍♀️ 𝔄𝔯𝔦𝔢𝔩 
+### 🧜🏻‍♀️ 𝔄𝔯𝔦𝔢𝔩 
 
 Ariel is a beloved fictional character and the protagonist of Disney's animated film "The Little Mermaid," released in 1989. She is a spirited and curious mermaid princess who dreams of exploring the world beyond the ocean and living among humans. Ariel's fascination with the human world leads her to make a deal with the sea witch Ursula to exchange her voice for legs, hoping to experience life on land and win the heart of Prince Eric. With her distinctive red hair and an adventurous spirit, Ariel captivated audiences with her determination, courage, and love for adventure. She remains one of Disney's most iconic and cherished princesses, known for her memorable songs and endearing personality.
 
