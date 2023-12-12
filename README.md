@@ -51,7 +51,7 @@ The group used the following codes provided below:
                     "Mulan",
     ]
 
-### 👸🏻 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰𝔢𝔰 👸🏻
+#### 👸🏻 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰𝔢𝔰 👸🏻
 
 ![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
 
