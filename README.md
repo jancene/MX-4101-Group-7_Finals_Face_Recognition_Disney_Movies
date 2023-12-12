@@ -85,7 +85,7 @@ The group used the following codes provided below: </p>
 ![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
 
 
-# <h1 align="center"> 🧜🏻‍♀️ 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 | 𝔄𝔯𝔦𝔢𝔩 🧜🏻‍♀️ </h1>
+# <h1 align="center"> 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 | 𝔎𝔫𝔬𝔴𝔫 </h1>
 
 
 ### 🧜🏻‍♀️ 𝔄𝔯𝔦𝔢𝔩 
@@ -112,81 +112,44 @@ Belle becomes entangled in a unique and heartwarming tale when she sacrifices he
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/7ae047c6-cb78-40b6-aef0-6afa0d72da2f" alt="Be with name">
 </p>
 
-    file_name = "Ci.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### 🥿 ℭ𝔦𝔫𝔡𝔢𝔯𝔢𝔩𝔩𝔞
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
+<p align="justify"> Cinderella is a classic Disney princess and the protagonist of Disney's animated film "Cinderella," released in 1950. Her story is one of enduring hope, resilience, and the transformative power of kindness. Cinderella, whose birth name is Ella, is portrayed as a gentle and kind-hearted young woman living with her wicked stepmother and stepsisters after her father's passing.
 
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+Living with her cruel stepfamily, she finds hope when her Fairy Godmother helps her attend a royal ball. There, she captures the heart of the Prince but must leave at midnight, leaving behind a glass slipper. The Prince searches for her, and when the slipper fits, Cinderella's life changes as she marries the Prince, embodying the belief that kindness triumphs over adversity in Disney's timeless tale.
 
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Ci.jpg" image with the code for facial recognition is: 
+</p>
     
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e415ae99-13df-4441-87a3-2509142cca66" alt="Ci with name">
 </p>
 
-    file_name = "Ja.jpeg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### 🪔 𝔍𝔞𝔰𝔪𝔦𝔫𝔢
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
+<p align="justify"> Jasmine is a Disney princess featured in the animated film "Aladdin," released in 1992. She is a headstrong and independent young woman, the daughter of the Sultan of Agrabah. Jasmine longs for freedom from the constraints of palace life and seeks to experience the world beyond its walls.
 
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+Jasmine is known for her courage, intelligence, and determination to shape her destiny, making her a beloved and empowering figure among Disney princesses. Her character challenges societal norms and stands for the idea that one should be free to pursue their dreams and find true love on their terms.
 
-        name = "Unknown"
+💡 The outcome derived from employing the "Ja.jpg" image with the code for facial recognition is: 
+</p>
 
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
-    
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/57c48bd9-cd76-448e-9243-38e1f179da4d" alt="Ja with name">
 </p>
 
-    file_name = "Mu.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ⚔️ 𝔐𝔲𝔩𝔞𝔫
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
+<p align="justify"> Mulan is a courageous and resourceful Disney character who stars in the animated film "Mulan," released in 1998. She is a brave young woman who defies tradition and societal expectations in order to protect her family and serve her country.
 
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+Throughout her journey, Mulan shows incredible bravery and loyalty, ultimately playing a pivotal role in saving China. Her story is one of self-discovery, empowerment, and the importance of being true to oneself, making her an inspiring and beloved Disney character admired for her resilience and courage.
 
-        name = "Unknown"
+💡 The outcome derived from employing the "Mu.jpg" image with the code for facial recognition is: 
+</p>
 
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
-    
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/ab5e85e7-6743-47d9-874d-e3730093b343" alt="Mu with name">
 </p>
-
 
 ### 𝔒𝔱𝔥𝔢𝔯 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
     file_name = "An.jpg"
