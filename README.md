@@ -1,4 +1,4 @@
-### **Group-7_Finals_Face_Recognition**
+<h1 align="center">Group-7_Finals_Face_Recognition</h1>
 
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
