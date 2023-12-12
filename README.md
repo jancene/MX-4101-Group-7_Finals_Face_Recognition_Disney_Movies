@@ -14,6 +14,10 @@ The group used the following codes provided below:
     %cd MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
 
 ### 🎬 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
+💻 This code is a Python code that performs face recognition on an image using the face_recognition library and the OpenCV. It loads an unknown image, detects faces, and compares their encodings with a set of known face encodings. It then draws rectangles around recognized faces, annotates them with corresponding names, and displays the modified image, showcasing the results of the face recognition process.
+
+👧🏻 For the face recognition of the Live Actors and Actresses of the Disney Movies Princesses utilized in this code for Known and Unknown identities intended for this activity:
+
     import face_recognition
     import numpy as np
     from google.colab.patches import cv2_imshow
