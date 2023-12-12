@@ -151,252 +151,84 @@ Throughout her journey, Mulan shows incredible bravery and loyalty, ultimately p
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/ab5e85e7-6743-47d9-874d-e3730093b343" alt="Mu with name">
 </p>
 
-### 𝔒𝔱𝔥𝔢𝔯 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
-    file_name = "An.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+# <h1 align="center"> 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 | 𝔘𝔫𝔨𝔫𝔬𝔴𝔫 </h1>
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
 
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟏
 
-        name = "Unknown"
+💡 The outcome derived from employing the "An.jpg" image with the code for facial recognition is: 
 
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
-    
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e52fa5fa-be83-416d-8962-43ee54ed8e9d" alt="U1">
 </p>
 
-    file_name = "Me.jpeg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟐
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Me.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/62f775d7-73a7-47df-ac6f-7ecbc7065d1f" alt="U2">
 </p>
 
-    file_name = "Po.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟑
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Po.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/68f6e667-742c-4b03-abc5-210d85155388" alt="U3">
 </p>
 
-    file_name = "Mo.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟒
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Mo.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/56f89d12-8cb2-4d14-92cf-d6fdb2f193e6" alt="U4">
 </p>
 
-    file_name = "Ki.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟓
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Ki.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/d3177af0-7cac-44f6-8409-6250b8e0b821" alt="U5">
 </p>
 
-    file_name = "Sw.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟔
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Sw.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/9179b852-1951-4555-a2c5-18bbae5b2079" alt="U6">
 </p>
 
-    file_name = "Mi.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟕 
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Mi.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/9ac026e7-3906-4693-b148-581b3a63da95" alt="U7">
 </p>
 
-    file_name = "Al.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟖 
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Al.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/92a73f82-8524-4ab9-a4d4-5c523817ba80" alt="U8">
 </p>
 
-    file_name = "Mk.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟗 
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Mk.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/846150c0-9812-400b-8357-d50644e98ba1" alt="U9">
 </p>
 
-    file_name = "Ri.jpg"
-    unknown_image = face_recognition.load_image_file(file_name)
-    unknown_image_to_draw = cv2.imread(file_name)
+### ❓𝔘𝔫𝔨𝔫𝔬𝔴𝔫 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 𝟏𝟎
 
-    face_locations = face_recognition.face_locations(unknown_image)
-    face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-
-    for (top,right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-
-        name = "Unknown"
-
-        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-        best_match_index = np.argmin(face_distances)
-        if matches[best_match_index]:
-            name = known_face_names[best_match_index]
-        cv2.rectangle(unknown_image_to_draw, (left, top), (right, bottom),(0,255,0),3)
-        cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
-
-    cv2_imshow(unknown_image_to_draw)
+💡 The outcome derived from employing the "Ri.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/c9150224-e833-4e33-81d8-42564190178d" alt="U10">
