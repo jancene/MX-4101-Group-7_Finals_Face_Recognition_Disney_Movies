@@ -13,7 +13,7 @@ The group used the following codes provided below:
     !pip install face_recognition
     %cd MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
 
-### 👸🏻 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
+### 🎬 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
     import face_recognition
     import numpy as np
     from google.colab.patches import cv2_imshow
@@ -51,8 +51,10 @@ The group used the following codes provided below:
                     "Mulan",
     ]
 
+### 👸🏻 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰𝔢𝔰 👸🏻
 
 ![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
+
 
 ### 𝔘𝔰𝔦𝔫𝔤 𝔉𝔞𝔠𝔦𝔞𝔩 ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫 𝔬𝔫 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
     file_name = "Ar.jpg"
