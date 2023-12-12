@@ -3,13 +3,11 @@
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
 <div style="text-align: justify;">
-
 Disney movies, a treasure trove of wonder and delight, weave magical narratives that transcend generations. From the groundbreaking classics like "Snow White and the Seven Dwarfs" to the modern masterpieces such as "Frozen" and "Moana," Disney's cinematic repertoire is a kaleidoscope of imagination and emotion. These films transport audiences to enchanting worlds filled with vibrant characters, unforgettable melodies, and timeless messages. With their artistry in storytelling and animation, Disney movies serve as a universal language, evoking laughter, tears, and a sense of wonder. They embody the essence of storytelling at its finest, leaving an indelible mark on the hearts of viewers worldwide, fostering dreams and reminding us of the enduring power of imagination and the importance of believing in the extraordinary.
 
 For this tale, the group task is to develope a face recognition program that accurately identifies and acknowledges Disney Live-Action Princess characters. This activity must be aligned with the pivotal action of making an interactive Dashboard for the brand of Disney Movies.
 
 The group used the following codes provided below:
-
 </div>
 
 ### 🎬 ℑ𝔪𝔭𝔬𝔯𝔱𝔦𝔫𝔤 ℑ𝔪𝔞𝔤𝔢𝔰 𝔣𝔯𝔬𝔪 𝔊𝔦𝔱𝔥𝔲𝔟 𝔞𝔫𝔡 ℑ𝔫𝔰𝔱𝔞𝔩𝔩𝔦𝔫𝔤 𝔉𝔞𝔠𝔢_ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫
