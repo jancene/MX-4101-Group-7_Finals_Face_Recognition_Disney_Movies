@@ -422,8 +422,8 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/c9150224-e833-4e33-81d8-42564190178d" alt="U10">
 </p>
 
-
-
+### SOURCE
+https://disneyprincess.fandom.com/wiki/Live-Action_Disney_Princesses
 
 
 
