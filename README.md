@@ -17,7 +17,7 @@ The group used the following codes provided below: </p>
     %cd MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
 
 ### 🎬 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
-💻 This code is a Python code that performs face recognition on an image using the face_recognition library and the OpenCV. It loads an unknown image, detects faces, and compares their encodings with a set of known face encodings. It then draws rectangles around recognized faces, annotates them with corresponding names, and displays the modified image, showcasing the results of the face recognition process.
+<p align="justify"> 💻 This code is a Python code that performs face recognition on an image using the face_recognition library and the OpenCV. It loads an unknown image, detects faces, and compares their encodings with a set of known face encodings. It then draws rectangles around recognized faces, annotates them with corresponding names, and displays the modified image, showcasing the results of the face recognition process. </p>
 
 👧🏻 For the face recognition of the Live Actors and Actresses of the Disney Movies Princesses utilized in this code for Known and Unknown identities intended for this activity:
 
@@ -90,10 +90,11 @@ The group used the following codes provided below: </p>
 
 ### 🧜🏻‍♀️ 𝔄𝔯𝔦𝔢𝔩 
 
-Ariel is a beloved fictional character and the protagonist of Disney's animated film "The Little Mermaid," released in 1989. She is a spirited and curious mermaid princess who dreams of exploring the world beyond the ocean and living among humans. Ariel's fascination with the human world leads her to make a deal with the sea witch Ursula to exchange her voice for legs, hoping to experience life on land and win the heart of Prince Eric. With her distinctive red hair and an adventurous spirit, Ariel captivated audiences with her determination, courage, and love for adventure. She remains one of Disney's most iconic and cherished princesses, known for her memorable songs and endearing personality.
+<p align="justify"> Ariel is a beloved fictional character and the protagonist of Disney's animated film "The Little Mermaid," released in 1989. She is a spirited and curious mermaid princess who dreams of exploring the world beyond the ocean and living among humans. Ariel's fascination with the human world leads her to make a deal with the sea witch Ursula to exchange her voice for legs, hoping to experience life on land and win the heart of Prince Eric. With her distinctive red hair and an adventurous spirit, Ariel captivated audiences with her determination, courage, and love for adventure. She remains one of Disney's most iconic and cherished princesses, known for her memorable songs and endearing personality.
 
 
 The outcome derived from employing the "Ar.jpg" image with the code for facial recognition is: 
+</p>
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e66545dc-f757-4ba9-b917-19bf8d3d7151" alt="Ar with name">
@@ -450,8 +451,8 @@ The outcome derived from employing the "Ar.jpg" image with the code for facial r
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/c9150224-e833-4e33-81d8-42564190178d" alt="U10">
 </p>
 
-### 🅢🅞🅤🅡🅒🅔
-https://disneyprincess.fandom.com/wiki/Live-Action_Disney_Princesses
+## 🅢🅞🅤🅡🅒🅔
+_https://disneyprincess.fandom.com/wiki/Live-Action_Disney_Princesses_
 
 
 
