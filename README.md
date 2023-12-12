@@ -2,18 +2,25 @@
 
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
-Disney movies, a treasure trove of wonder and delight, weave magical narratives that transcend generations. From the groundbreaking classics like "Snow White and the Seven Dwarfs" to the modern masterpieces such as "Frozen" and "Moana," Disney's cinematic repertoire is a kaleidoscope of imagination and emotion. These films transport audiences to enchanting worlds filled with vibrant characters, unforgettable melodies, and timeless messages. With their artistry in storytelling and animation, Disney movies serve as a universal language, evoking laughter, tears, and a sense of wonder. They embody the essence of storytelling at its finest, leaving an indelible mark on the hearts of viewers worldwide, fostering dreams and reminding us of the enduring power of imagination and the importance of believing in the extraordinary.
+<p align="justify"> Disney movies, a treasure trove of wonder and delight, weave magical narratives that transcend generations. From the groundbreaking classics like "Snow White and the Seven Dwarfs" to the modern masterpieces such as "Frozen" and "Moana," Disney's cinematic repertoire is a kaleidoscope of imagination and emotion. These films transport audiences to enchanting worlds filled with vibrant characters, unforgettable melodies, and timeless messages. With their artistry in storytelling and animation, Disney movies serve as a universal language, evoking laughter, tears, and a sense of wonder. They embody the essence of storytelling at its finest, leaving an indelible mark on the hearts of viewers worldwide, fostering dreams and reminding us of the enduring power of imagination and the importance of believing in the extraordinary. </p>
 
+<p align="justify"> Face recognition is a technology that involves identifying or verifying individuals by analyzing and comparing patterns based on their facial features. It is a subset of biometric technology that uses distinctive characteristics of a person's face to distinguish them from others.
+    
 For this tale, the group task is to develope a face recognition program that accurately identifies and acknowledges Disney Live-Action Princess characters. This activity must be aligned with the pivotal action of making an interactive Dashboard for the brand of Disney Movies.
 
-The group used the following codes provided below:
+The group used the following codes provided below: </p>
+
 
 ### 🎬 ℑ𝔪𝔭𝔬𝔯𝔱𝔦𝔫𝔤 ℑ𝔪𝔞𝔤𝔢𝔰 𝔣𝔯𝔬𝔪 𝔊𝔦𝔱𝔥𝔲𝔟 𝔞𝔫𝔡 ℑ𝔫𝔰𝔱𝔞𝔩𝔩𝔦𝔫𝔤 𝔉𝔞𝔠𝔢_ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫
     !git clone https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
     !pip install face_recognition
     %cd MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
 
-### 👸🏻 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
+### 🎬 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
+💻 This code is a Python code that performs face recognition on an image using the face_recognition library and the OpenCV. It loads an unknown image, detects faces, and compares their encodings with a set of known face encodings. It then draws rectangles around recognized faces, annotates them with corresponding names, and displays the modified image, showcasing the results of the face recognition process.
+
+👧🏻 For the face recognition of the Live Actors and Actresses of the Disney Movies Princesses utilized in this code for Known and Unknown identities intended for this activity:
+
     import face_recognition
     import numpy as np
     from google.colab.patches import cv2_imshow
@@ -51,11 +58,8 @@ The group used the following codes provided below:
                     "Mulan",
     ]
 
-
-![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
-
 ### 𝔘𝔰𝔦𝔫𝔤 𝔉𝔞𝔠𝔦𝔞𝔩 ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫 𝔬𝔫 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
-    file_name = "Ar.jpg"
+    file_name = " "
     unknown_image = face_recognition.load_image_file(file_name)
     unknown_image_to_draw = cv2.imread(file_name)
 
@@ -75,6 +79,21 @@ The group used the following codes provided below:
         cv2.putText(unknown_image_to_draw,name, (left, top-20), cv2.FONT_HERSHEY_SIMPLEX,1,(0,0,255),2, cv2.LINE_AA)
 
     cv2_imshow(unknown_image_to_draw)
+
+<h1 align="center"> 👸🏻 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰𝔢𝔰 👸🏻 </h1>
+
+![Disney Movies Princess](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/92082602/24459688-3e89-48e1-99d1-074e68fb9650)
+
+
+# <h1 align="center"> 🧜🏻‍♀️ 𝔇𝔦𝔰𝔫𝔢𝔶 𝔓𝔯𝔦𝔫𝔠𝔢𝔰𝔰 | 𝔄𝔯𝔦𝔢𝔩 🧜🏻‍♀️ </h1>
+
+
+### 🧜🏻‍♀️ 𝔄𝔯𝔦𝔢𝔩 
+
+Ariel is a beloved fictional character and the protagonist of Disney's animated film "The Little Mermaid," released in 1989. She is a spirited and curious mermaid princess who dreams of exploring the world beyond the ocean and living among humans. Ariel's fascination with the human world leads her to make a deal with the sea witch Ursula to exchange her voice for legs, hoping to experience life on land and win the heart of Prince Eric. With her distinctive red hair and an adventurous spirit, Ariel captivated audiences with her determination, courage, and love for adventure. She remains one of Disney's most iconic and cherished princesses, known for her memorable songs and endearing personality.
+
+
+The outcome derived from employing the "Ar.jpg" image with the code for facial recognition is: 
 
 <p align="center">
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/e66545dc-f757-4ba9-b917-19bf8d3d7151" alt="Ar with name">
