@@ -1,5 +1,4 @@
-# <h1 align="center">![image](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143627650/9e9314d7-fea5-496f-838b-ac77e5079433)
-</h1>
+# <h1 align="center">![image](https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143627650/d5613900-98b4-4f51-9b59-d4cd29b33bab)</h1>
 
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
