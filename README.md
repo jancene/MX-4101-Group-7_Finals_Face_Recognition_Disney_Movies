@@ -1,13 +1,13 @@
-<h1 align="center">𝕲𝖗𝖔𝖚𝖕-7_𝕱𝖎𝖓𝖆𝖑𝖘_𝕱𝖆𝖈𝖊_𝕽𝖊𝖈𝖔𝖌𝖓𝖎𝖙𝖎𝖔𝖓</h1>
+# <h1 align="center">𝕲𝖗𝖔𝖚𝖕-7_𝕱𝖎𝖓𝖆𝖑𝖘_𝕱𝖆𝖈𝖊_𝕽𝖊𝖈𝖔𝖌𝖓𝖎𝖙𝖎𝖔𝖓</h1>
 
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
-### Importing Images from Github and Installing Face_Recognition
+### ℑ𝔪𝔭𝔬𝔯𝔱𝔦𝔫𝔤 ℑ𝔪𝔞𝔤𝔢𝔰 𝔣𝔯𝔬𝔪 𝔊𝔦𝔱𝔥𝔲𝔟 𝔞𝔫𝔡 ℑ𝔫𝔰𝔱𝔞𝔩𝔩𝔦𝔫𝔤 𝔉𝔞𝔠𝔢_ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫
     !git clone https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
     !pip install face_recognition
     %cd MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies
 
-### Encoding Profiles Using Known Face Images
+### 𝔈𝔫𝔠𝔬𝔡𝔦𝔫𝔤 𝔓𝔯𝔬𝔣𝔦𝔩𝔢𝔰 𝔘𝔰𝔦𝔫𝔤 𝔎𝔫𝔬𝔴𝔫 𝔉𝔞𝔠𝔢 ℑ𝔪𝔞𝔤𝔢𝔰
     import face_recognition
     import numpy as np
     from google.colab.patches import cv2_imshow
@@ -45,7 +45,7 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
                     "Mulan",
     ]
 
-### Using Facial Recognition on Live-Action Disney Actors and Actresses
+### 𝔘𝔰𝔦𝔫𝔤 𝔉𝔞𝔠𝔦𝔞𝔩 ℜ𝔢𝔠𝔬𝔤𝔫𝔦𝔱𝔦𝔬𝔫 𝔬𝔫 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
     file_name = "Ar.jpg"
     unknown_image = face_recognition.load_image_file(file_name)
     unknown_image_to_draw = cv2.imread(file_name)
@@ -171,7 +171,7 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
 </p>
 
 
-### Other Live-Action Disney Actors and Actresses
+### 𝔒𝔱𝔥𝔢𝔯 𝔏𝔦𝔳𝔢-𝔄𝔠𝔱𝔦𝔬𝔫 𝔇𝔦𝔰𝔫𝔢𝔶 𝔄𝔠𝔱𝔬𝔯𝔰 𝔞𝔫𝔡 𝔄𝔠𝔱𝔯𝔢𝔰𝔰𝔢𝔰
     file_name = "An.jpg"
     unknown_image = face_recognition.load_image_file(file_name)
     unknown_image_to_draw = cv2.imread(file_name)
@@ -422,7 +422,7 @@ _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell 
   <img src="https://github.com/renseeel/MX-4101-Group-7_Finals_Face_Recognition_Disney_Movies/assets/143622288/c9150224-e833-4e33-81d8-42564190178d" alt="U10">
 </p>
 
-### SOURCE
+### 🅢🅞🅤🅡🅒🅔
 https://disneyprincess.fandom.com/wiki/Live-Action_Disney_Princesses
 
 
