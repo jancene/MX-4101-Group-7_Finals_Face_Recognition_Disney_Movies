@@ -3,10 +3,10 @@
 _**Author/s**: Hannah Jocelle P. Bacong, Jancene Grace C. Generoso, and Renzell M. Mercado_
 
 <p align="justify"> Disney movies, a treasure trove of wonder and delight, weave magical narratives that transcend generations. From the groundbreaking classics like "Snow White and the Seven Dwarfs" to the modern masterpieces such as "Frozen" and "Moana," Disney's cinematic repertoire is a kaleidoscope of imagination and emotion. These films transport audiences to enchanting worlds filled with vibrant characters, unforgettable melodies, and timeless messages. With their artistry in storytelling and animation, Disney movies serve as a universal language, evoking laughter, tears, and a sense of wonder. They embody the essence of storytelling at its finest, leaving an indelible mark on the hearts of viewers worldwide, fostering dreams and reminding us of the enduring power of imagination and the importance of believing in the extraordinary.
-
-Face recognition is a technology that involves identifying or verifying individuals by analyzing and comparing patterns based on their facial features. It is a subset of biometric technology that uses distinctive characteristics of a person's face to distinguish them from others.
-
-For this tale, the group task is to develope a face recognition program that accurately identifies and acknowledges Disney Live-Action Princess characters. This activity must be aligned with the pivotal action of making an interactive Dashboard for the brand of Disney Movies.
+    
+    Face recognition is a technology that involves identifying or verifying individuals by analyzing and comparing patterns based on their facial features. It is a subset of biometric technology that uses distinctive characteristics of a person's face to distinguish them from others.
+    
+    For this tale, the group task is to develope a face recognition program that accurately identifies and acknowledges Disney Live-Action Princess characters. This activity must be aligned with the pivotal action of making an interactive Dashboard for the brand of Disney Movies.
 
 The group used the following codes provided below:</p>
 
