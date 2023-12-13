@@ -236,7 +236,13 @@ Throughout her journey, Mulan shows incredible bravery and loyalty, ultimately p
 
 ## 🅢🅞🅤🅡🅒🅔
 _https://disneyprincess.fandom.com/wiki/Live-Action_Disney_Princesses_
-
+_https://www.cinemablend.com/movies/aladdins-mena-massoud-offers-update-on-the-live-action-sequel_
+_https://www.imdb.com/news/ni64089839/_
+_https://theadamscorner.wordpress.com/2015/08/17/beautyandthebeast-first-look-emma-watson-makes-gorgeous-debut-as-belle/comment-page-1/_
+_https://www.wickedlocal.com/story/bulletin-tab/2015/03/13/movie-review-x2018-cinderella-x2019/35017558007/_
+_https://www.pinterest.ph/pin/757167756088806791/visual-search/?x=16&y=16&w=532&h=1437_
+_https://www.imdb.com/news/ni62170055/_
+_https://www.pinterest.ph/pin/disney--508625351664238640/_
 
 
 
